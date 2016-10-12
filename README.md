@@ -6,7 +6,7 @@ Angular Sidenav uses CSS and native angular (no jqlite or jquery). It generates 
 ### Sample Structure
 ```html
   <button class="btn btn-default" show-nav>SideNav</button>
-  <side-nav id="mySideNav" side-nav-position="right-aligned">
+  <side-nav side-nav-position="right-aligned">
       <h3>Sample</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   </side-nav>
