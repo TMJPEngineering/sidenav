@@ -1,7 +1,7 @@
 # Angular Directive SideNav
 Responsive, Angular powered sidenav plugin.
 
-Angular Sidenav uses CSS and native angular (no jqlite or jquery). It generate sidebar navigation and give the user the option to place the sidenav on the left, right or bottom side of the screen. 
+Angular Sidenav uses CSS and native angular (no jqlite or jquery). It generates sidebar navigation and give the user the option to place the sidenav on the left, right or bottom side of the screen. 
 
 ### Sample Structure
 ```html
@@ -19,5 +19,5 @@ The user has the option to change the position of the side navigation. By defaul
 
 | Attribute | Description                       | Type      | Default     |Required|Values|
 |-----------|-----------------------------------|-----------|-------------|--------|--------|
-| `side-nav-position` | *takes the id of the target loader that will be loaded*       | `string` | `none`     | `false` | `right-aligned`/ `bottom-aligned`|
+| `side-nav-position` | *takes the id of the target loader that will be loaded*       | `string` |`` empty string is equivalent to left aligned sidenav| `false` | `right-aligned`/ `bottom-aligned`|
 | `show-nav`  | *triggers the display of the side nav*      | none  | none | `true` |
