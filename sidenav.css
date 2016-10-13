@@ -46,8 +46,8 @@
 
 .backdrop {
   background-color: rgba(0,0,0,0.3);
-  height: 900px;
-  width: 1600px;
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
